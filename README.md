@@ -9,7 +9,12 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Dependencies
+- RxSwift
+
 ## Requirements
+- Swift 5 +
+- iOS 9.0 +
 
 ## Installation
 
