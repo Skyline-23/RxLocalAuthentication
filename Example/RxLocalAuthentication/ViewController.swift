@@ -7,12 +7,27 @@
 //
 
 import UIKit
+import RxSwift
+import RxLocalAuthentication
 
 class ViewController: UIViewController {
+    
+    let context: RxLAContext = RxLAContext()
+    let disposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        context.evaluatePolicy(.deviceOwnerAuthentication, localizedReason: "Test")
+            .subscribe { result in
+                print(result)
+            } onFailure: { error in
+                print(error)
+            } onDisposed: {
+                print("disposed")
+            }
+            .disposed(by: disposeBag)
+
     }
 
     override func didReceiveMemoryWarning() {
