@@ -3,6 +3,8 @@
 [![Version](https://img.shields.io/cocoapods/v/RxLocalAuthentication.svg?style=flat)](https://cocoapods.org/pods/RxLocalAuthentication)
 [![License](https://img.shields.io/cocoapods/l/RxLocalAuthentication.svg?style=flat)](https://cocoapods.org/pods/RxLocalAuthentication)
 [![Platform](https://img.shields.io/cocoapods/p/RxLocalAuthentication.svg?style=flat)](https://cocoapods.org/pods/RxLocalAuthentication)
+[![Swift 5.0+](https://img.shields.io/badge/Swift-5.0%2B-orange.svg?style=flat)](https://developer.apple.com/swift/)
+![iOS 9.0+](https://img.shields.io/badge/iOS-9.0%2B-blue.svg)
 
 ## Example
 
