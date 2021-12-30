@@ -5,6 +5,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/RxLocalAuthentication.svg?style=flat)](https://cocoapods.org/pods/RxLocalAuthentication)
 [![Swift 5.0+](https://img.shields.io/badge/Swift-5.0%2B-orange.svg?style=flat)](https://developer.apple.com/swift/)
 ![iOS 9.0+](https://img.shields.io/badge/iOS-9.0%2B-blue.svg)
+[![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 
 ## Example
 
@@ -24,6 +25,12 @@ RxLocalAuthentication is available through [CocoaPods](https://cocoapods.org). T
 it, simply add the following line to your Podfile:
 ```ruby
 pod 'RxLocalAuthentication'
+```
+
+### Swift Package Manager
+To integrate using Apple's Swift package manager, add the following as a dependency to your Package.swift:
+```swift
+.package(name: "FINNBottomSheet", url: "https://github.com/finn-no/BottomSheet.git", .upToNextMajor(from: "1.0.0"))
 ```
 
 ## Author
