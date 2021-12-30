@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxLocalAuthentication'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.swift_versions   = '5.0'
   s.summary          = 'Rx wrapper over LocalAuthentication framework'
 
@@ -31,7 +31,7 @@ This Library made for use LocalAuthentication with RxSwift
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'RxLocalAuthentication/Classes/**/*'
+  s.source_files = 'Sources/RxLocalAuthentication/Classes/**/*'
   
   # s.resource_bundles = {
   #   'RxLocalAuthentication' => ['RxLocalAuthentication/Assets/*.png']
