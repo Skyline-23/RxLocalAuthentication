@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'RxLocalAuthentication_Example' do
+  pod 'RxLocalAuthentication', :path => '../'
+
+  target 'RxLocalAuthentication_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
