@@ -30,7 +30,7 @@ pod 'RxLocalAuthentication'
 ### Swift Package Manager
 To integrate using Apple's Swift package manager, add the following as a dependency to your Package.swift:
 ```swift
-.package(name: "FINNBottomSheet", url: "https://github.com/finn-no/BottomSheet.git", .upToNextMajor(from: "1.0.0"))
+.package(name: "RxLocalAuthentication", url: "https://github.com/Skyline-23/RxLocalAuthentication.git", .upToNextMajor(from: "1.0.0"))
 ```
 
 ## Author
