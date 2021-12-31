@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/kimbuseong/Desktop/Dev/iOS/RxLocalAuthentication/.build/x86_64-apple-macosx/debug/RxLocalAuthentication.build/master.swiftdeps"
+  },
+  "/Users/kimbuseong/Desktop/Dev/iOS/RxLocalAuthentication/Sources/RxLocalAuthentication/Classes/RxLocalAuthentication.swift": {
+    "dependencies": "/Users/kimbuseong/Desktop/Dev/iOS/RxLocalAuthentication/.build/x86_64-apple-macosx/debug/RxLocalAuthentication.build/Classes/RxLocalAuthentication.d",
+    "object": "/Users/kimbuseong/Desktop/Dev/iOS/RxLocalAuthentication/.build/x86_64-apple-macosx/debug/RxLocalAuthentication.build/Classes/RxLocalAuthentication.swift.o",
+    "swiftmodule": "/Users/kimbuseong/Desktop/Dev/iOS/RxLocalAuthentication/.build/x86_64-apple-macosx/debug/RxLocalAuthentication.build/Classes/RxLocalAuthentication~partial.swiftmodule",
+    "swift-dependencies": "/Users/kimbuseong/Desktop/Dev/iOS/RxLocalAuthentication/.build/x86_64-apple-macosx/debug/RxLocalAuthentication.build/Classes/RxLocalAuthentication.swiftdeps"
+  }
+}

@@ -1,0 +1,4 @@
+module RxSwift {
+    header "/Users/kimbuseong/Desktop/Dev/iOS/RxLocalAuthentication/.build/x86_64-apple-macosx/debug/RxSwift.build/RxSwift-Swift.h"
+    requires objc
+}

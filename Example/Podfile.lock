@@ -1,0 +1,33 @@
+PODS:
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxLocalAuthentication (0.1.0):
+    - RxCocoa
+    - RxSwift
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+
+DEPENDENCIES:
+  - RxLocalAuthentication (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  RxLocalAuthentication:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxLocalAuthentication: 60d88636204eeced5bfe61810a624c7c6649ab4d
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+
+PODFILE CHECKSUM: 1d2a10ceb0ae7d471b5838f9389580f9e5575add
+
+COCOAPODS: 1.11.2
