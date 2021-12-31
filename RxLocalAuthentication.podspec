@@ -40,5 +40,4 @@ This Library made for use LocalAuthentication with RxSwift
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'LocalAuthentication'
   s.dependency 'RxSwift'
-  s.dependency 'RxCocoa'
 end
