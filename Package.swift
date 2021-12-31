@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "RxLocalAuthentication",
+    platforms: [.iOS(.v9), ],
     products: [
         .library(name: "RxLocalAuthentication", targets: ["RxLocalAuthentication"]),
     ],
