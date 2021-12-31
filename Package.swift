@@ -13,7 +13,7 @@ let package = Package(
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.0.0")),
     ],
     targets: [
-        .target(name: "RxLocalAuthentication", dependencies: ["RxSwift"]),
+        .target(name: "RxLocalAuthentication", dependencies: "RxSwift"),
         .testTarget(name: "RxLocalAuthenticationTests", dependencies: ["RxLocalAuthentication"]),
     ]
 )
