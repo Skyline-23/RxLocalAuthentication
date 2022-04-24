@@ -26,9 +26,9 @@ public class RxLAContext {
         Single<Bool>.create { single in
             self.context.evaluatePolicy(policy, localizedReason: localizedReason) { result, error in
                 if let error = error {
-                    single(.failure(error))
+                    single(Result.failure(error))
                 } else {
-                    single(.success(result))
+                    single(Result.success(result))
                 }
             }
             return Disposables.create()
