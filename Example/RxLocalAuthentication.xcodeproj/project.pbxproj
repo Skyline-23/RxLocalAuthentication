@@ -45,7 +45,7 @@
 		BC4DB546C3AF83EDD59610C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DE8859B81EE369F925A817FE /* Pods_RxLocalAuthentication_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxLocalAuthentication_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3DA0D35F0F77C30F40E2BE0 /* Pods-RxLocalAuthentication_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxLocalAuthentication_Tests.release.xcconfig"; path = "Target Support Files/Pods-RxLocalAuthentication_Tests/Pods-RxLocalAuthentication_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F65DEC07EC4521FFD76B9F62 /* RxLocalAuthentication.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RxLocalAuthentication.podspec; path = ../RxLocalAuthentication.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F65DEC07EC4521FFD76B9F62 /* RxLocalAuthentication.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RxLocalAuthentication.podspec; path = ../RxLocalAuthentication.podspec; sourceTree = "<group>"; };
 		F6E4A64BD7C3EFDA04761FFB /* Pods-RxLocalAuthentication_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxLocalAuthentication_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RxLocalAuthentication_Tests/Pods-RxLocalAuthentication_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
