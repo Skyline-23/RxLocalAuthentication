@@ -26,7 +26,7 @@ public class RxLAContext {
         Single<Bool>.create { single in
             self.context.evaluatePolicy(policy, localizedReason: localizedReason) { result, error in
                 if let error = error {
-                    single(.error(error))
+                    single(.failure(error))
                 } else {
                     single(.success(result))
                 }
@@ -51,7 +51,7 @@ public class RxLAContext {
         Single<Bool>.create { single in
             self.context.evaluateAccessControl(accessControl, operation: operation, localizedReason: localizedReason) { result, error in
                 if let error = error {
-                    single(.error(error))
+                    single(.failure(error))
                 } else {
                     single(.success(result))
                 }
