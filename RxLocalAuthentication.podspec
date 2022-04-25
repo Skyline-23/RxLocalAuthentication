@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxLocalAuthentication'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.swift_versions   = '5.0'
   s.summary          = 'Rx wrapper over LocalAuthentication framework'
 
